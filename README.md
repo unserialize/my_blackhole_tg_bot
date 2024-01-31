@@ -9,3 +9,5 @@ on behalf of the user (if a user signs a transaction with his wallet).
 
 To launch, `.env` file with proper variables (see `index.ts`) should be created.
 For local testing, you'll need ngrok, probably.
+
+There is also a web app [frontend](https://github.com/unserialize/my_blackhole_frontend) to the same TON contract.
