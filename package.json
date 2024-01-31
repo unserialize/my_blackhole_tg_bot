@@ -1,0 +1,25 @@
+{
+  "name": "my_blackhole_tg_bot",
+  "version": "1.0.0",
+  "description": "tg bot implementing logic as front-end https://github.com/unserialize/my_blackhole_frontend",
+  "main": "src/index.ts",
+  "repository": "https://github.com/unserialize/my_blackhole_tg_bot",
+  "author": "unserialize",
+  "license": "MIT",
+  "devDependencies": {
+    "@swc/core": "^1.3.107",
+    "@types/node": "^20.11.13",
+    "@types/node-telegram-bot-api": "^0.64.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "node-telegram-bot-api": "^0.64.0",
+    "ton-core": "^0.53.0",
+    "ton-crypto": "^3.2.0"
+  },
+  "scripts": {
+    "start": "ts-node ./src/index.ts"
+  }
+}
